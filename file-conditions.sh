@@ -13,9 +13,17 @@
 
 FILE="test.txt"
 
-if [ -f "$FILE" ]
+# if [ -f "$FILE" ]
+# then
+#     echo "$FILE is a file"
+# else
+#     echo "$FILE is not a file"
+# fi
+
+
+if [ -e "$FILE" ]
 then
-    echo "$FILE is a file"
+    echo "$FILE exists"
 else
-    echo "$FILE is not a file"
+    echo "$FILE does not exists"
 fi
