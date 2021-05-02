@@ -7,7 +7,9 @@
 
 # to run the program with bash use ./ (filename) eg. ./simple-echo.sh
 
-#! usr/bin/bash
+# use # for commenting out the lines
+
+#! /usr/bin/bash
 
 # ECHO Command
 
