@@ -9,7 +9,7 @@
 # val1 -le val2 returns true if val1 is less than or equal to val2
 ########
 
-NUM1=3
+NUM1=31
 NUM2=5
 
 if [ "$NUM1" -gt "$NUM2" ]
